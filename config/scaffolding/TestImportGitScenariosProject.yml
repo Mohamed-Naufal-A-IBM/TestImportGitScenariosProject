@@ -16,10 +16,6 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
-- serviceName: project.testimportgitscenarios.integrations:testDummyFlow
-  packages:
-  - name: TestImportGitScenariosProject
-    version: "1.0"
 - serviceName: project.testimportgitscenarios.integrations:testFlowService_123
   packages:
   - name: TestImportGitScenariosProject
