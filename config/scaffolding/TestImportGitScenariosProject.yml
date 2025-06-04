@@ -8,6 +8,10 @@ packages:
   gitUsername: Mohamed-Naufal-A-IBM
   gitBranch: main
 services:
+- serviceName: project.testimportgitscenarios.documenttypes:test
+  packages:
+  - name: TestImportGitScenariosProject
+    version: "1.0"
 - serviceName: project.testimportgitscenarios.integrations:test
   packages:
   - name: TestImportGitScenariosProject
@@ -16,3 +20,23 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
+- serviceName: project.testimportgitscenarios.integrations:testDummyFlow
+  packages:
+  - name: TestImportGitScenariosProject
+    version: "1.0"
+- serviceName: project.testimportgitscenarios.integrations:testFlowService_12
+  packages:
+  - name: TestImportGitScenariosProject
+    version: "1.0"
+- serviceName: pub.json:documentToJSONString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
+- serviceName: project.testimportgitscenarios.referencedata:test
+  packages:
+  - name: TestImportGitScenariosProject
+    version: "1.0"
+- serviceName: project.testimportgitscenarios.integrations:testFlowService_123
+  packages:
+  - name: TestImportGitScenariosProject
+    version: "1.0"
