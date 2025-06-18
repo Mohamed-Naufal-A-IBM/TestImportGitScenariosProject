@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">moaa</value>
-    <value name="lastModifiedDate">1749553515963</value>
+    <value name="lastModifiedDate">1750248608017</value>
     <value name="displayName">testFlow_imported</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -105,7 +105,7 @@
           <value name="connectionType">sagcloud</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.test.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1</value>
+        <value name="connectionNSName">project.testimportgitscenarios.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1</value>
         <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
@@ -224,7 +224,7 @@
       <value name="id">default</value>
       <value name="name">Cloud Execution</value>
     </record>
-    <value name="createdDate">1749553515963</value>
+    <value name="createdDate">1750248608017</value>
   </record>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
