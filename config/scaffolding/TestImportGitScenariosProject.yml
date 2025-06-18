@@ -8,6 +8,14 @@ packages:
   gitUsername: Mohamed-Naufal-A-IBM
   gitBranch: main
 services:
+- serviceName: project.testimportgitscenarios.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:test
+  packages:
+  - name: TestImportGitScenariosProject
+    version: "1.0"
+- serviceName: project.testimportgitscenarios.documenttypes:test
+  packages:
+  - name: TestImportGitScenariosProject
+    version: "1.0"
 - serviceName: project.testimportgitscenarios.integrations:test
   packages:
   - name: TestImportGitScenariosProject
@@ -16,10 +24,34 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
+- serviceName: project.testimportgitscenarios.integrations:test1
+  packages:
+  - name: TestImportGitScenariosProject
+    version: "1.0"
 - serviceName: project.testimportgitscenarios.integrations:test12
   packages:
   - name: TestImportGitScenariosProject
     version: "1.0"
+- serviceName: project.testimportgitscenarios.integrations:testFlow
+  packages:
+  - name: TestImportGitScenariosProject
+    version: "1.0"
+- serviceName: project.testimportgitscenarios.integrations:testFlow_imported
+  packages:
+  - name: TestImportGitScenariosProject
+    version: "1.0"
+- serviceName: project.test.integrations:flow_1_imported
+  packages:
+  - name: TestImportGitScenariosProject
+    version: "1.0"
+- serviceName: project.test.integrations:flow_2_imported
+  packages:
+  - name: TestImportGitScenariosProject
+    version: "1.0"
+- serviceName: pub.string:length
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
 - serviceName: project.testimportgitscenarios.integrations:testFlowService_12
   packages:
   - name: TestImportGitScenariosProject
